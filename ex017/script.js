@@ -4,7 +4,7 @@ var lista = document.getElementById('list')
 var valor = document.querySelector('div#valor')
 //array criada  
 var num = []
-/* botões que verificam e adcionam na lista de números
+/* botões que verificam e adicionam na lista de números
 
 */ 
 function addLista(){
@@ -39,6 +39,8 @@ function addLista(){
                 valor.innerHTML = `( ͡° ͜ʖ ͡°)`
                 //senão ele segue normalmente
                 }
+                numar.value=''
+                numar.focus()
             }
         }  
     } 
