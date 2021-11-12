@@ -39,11 +39,12 @@ function addLista(){
                 valor.innerHTML = `( ͡° ͜ʖ ͡°)`
                 //senão ele segue normalmente
                 }
-                numar.value=''
-                numar.focus()
+                
             }
         }  
-    } 
+    }
+    numar.value=''
+    numar.focus() 
 }
 function finalizar(){
     if(lista.length == 0){
