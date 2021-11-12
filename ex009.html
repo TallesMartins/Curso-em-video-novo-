@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(229, 245, 240);
+            font:normal 14pt Arial;
+        }
+        button{
+            background-color: rgb(212, 211, 209);
+            color: rgb(0, 0, 0);
+            font: normal 14pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <p>Onde você mora?</p>
+    <input type="text" id="Naci">
+    <button onclick="Verficar()">Verificar</button>
+    <div id="res"></div>
+    <script>
+        var pais = document.querySelector('input#Naci')
+        var res = document.querySelector('div#res')
+        var txtpais = (pais.value)
+        function Verficar(){
+            if(txtpais == 'Brasil'){
+                res.innerHTML = 'Você é Brasileiro!'
+            }else{
+                res.innerHTML = 'Você é estrangeiro!'
+            }
+        }
+    </script>
+</body>
+</html>
