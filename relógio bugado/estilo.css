@@ -9,22 +9,30 @@ header{
     padding: 5px;
     
 }
+
 section{
     background-color:white;
     font:normal 16pt Arial;
     text-align: center;
-    width: 500px;
+    width: min-content;
+    padding: 2%;
     border-radius: 20px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
-    }
-    div{
+}
+div{
     text-align: center;
     padding: 5px;
 }
-    footer{
+footer{
     text-align: center;
     color:white;
     font-style: italic;
     padding: 5px;
+}
+#festinha{
+    display: none;
+}
+#btfestinha{
+    display: none;
 }

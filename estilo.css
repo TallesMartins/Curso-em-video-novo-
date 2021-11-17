@@ -1,0 +1,103 @@
+h1{
+
+    text-align: center;
+    background-color: rgb(212, 56, 16);
+    text-transform: uppercase;
+    margin-top: 1em;
+    color: cadetblue;
+}
+
+body{
+
+    background-image: url('branco.webp');
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: 100%;
+    cursor: default;
+}
+
+input.numeros{
+
+    font-size: 10pt;
+    font-weight: 900;
+    margin-top: 1em;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: inline-block;
+    margin-right: 1em;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 2em;
+}
+
+input.numeros:hover{
+
+    color:rgb(245, 146, 146)
+}
+
+#num{
+
+    text-align: center;
+}
+
+div#botoes{
+
+    text-align: center;
+}
+
+input{
+
+    color: cadetblue;
+    background-color: rgb(212, 248, 217);
+    border-radius: 10%;
+    height:3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 13pt;
+    width: auto;
+}
+
+input.nu{
+    color: black;
+    background-color: rgb(83, 36, 211);
+    border-radius: 10%;
+    height:2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 12pt;
+    text-align: center;
+    width: 19vw;
+}
+
+input:hover{
+
+
+    color: oldlace;
+    background-color: orangered;
+}
+
+div#fundo{
+
+    text-align: center;
+    
+}
+
+img.foto{
+
+    border-radius: 50%;
+    width: 50%;
+    opacity: 50%;
+}
+
+div#sorte{
+
+    text-align: center;
+   
+}
+div#res{
+    text-align: center;
+}

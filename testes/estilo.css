@@ -19,8 +19,8 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
     }
     div{
-    text-align: center;
-    padding: 5px;
+    text-align: left;
+    padding: 15px;
 }
     footer{
     text-align: center;

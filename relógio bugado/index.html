@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body onload="carregar()">
+    
     <header>Relógio bugado</header>
-    <section>
-        <div id="msg">
-        </div>
-        <div id="img">
-            <img id="foto" src="manha.png" alt="Manhã">
-        </div>
-    </section>
-    <audio id="onibus" src="onibus.mp3"></audio>
-    <audio id="poco" src="poco.mp3"></audio>
-    <footer>&copy; Relógiobugado</footer>
+        <span>
+                <section>
+                <div id="msg">
+                </div>
+                <div id="img">
+                    <img id="foto" src="manha.png" alt="Manhã">
+                </div>
+        </section>
+        </span>
+        <audio id="onibus" src="conteudo/poco.mp3"></audio>
+        <audio id="poco" src="conteudo/poco.mp3"></audio>
+        <input id='btfestinha'type="button" value="Festinha" onclick="Mostrar()">
+            <div id='festinha'>
+                <video src="conteudo/festinha.mp4" controls></video>
+            </div>
+        <footer>&copy; Relógiobugado</footer>
+        
+    </div>
     <script src="script.js"></script>
+    
 </body>
 </html>
